@@ -1,7 +1,7 @@
-package com.dhiraj.designpatterns.singletons;
+package com.dhiraj.designpatterns.singleton;
 
 public class DatabaseConnection {
-    private static DatabaseConnection instance;
+    private static DatabaseConnection instance = null;
 
     private String url;
     private String username;

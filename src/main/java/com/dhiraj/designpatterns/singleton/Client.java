@@ -1,4 +1,4 @@
-package com.dhiraj.designpatterns.singletons;
+package com.dhiraj.designpatterns.singleton;
 
 public class Client {
     public static void main(String[] args) {
